@@ -34,7 +34,7 @@ form.addEventListener("submit", function(button){
             denyButtonText: `Don't save`,
           }).then((result) => {
             if (result.isConfirmed) {
-              Swal.fire('Saved!', '', 'success')
+              Swal.fire('Saved!', 'It will be ready in a few minutes', 'success')
             } else if (result.isDenied) {
               Swal.fire('Changes are not saved', '', 'info')
             }
@@ -67,7 +67,7 @@ form.addEventListener("submit", function(button){
             denyButtonText: `Don't save`,
           }).then((result) => {
             if (result.isConfirmed) {
-              Swal.fire('Saved!', '', 'success')
+              Swal.fire('Saved!', 'It will be ready in a few minutes', 'success')
             } else if (result.isDenied) {
               Swal.fire('Changes are not saved', '', 'info')
             }
@@ -99,7 +99,7 @@ form.addEventListener("submit", function(button){
             denyButtonText: `Don't save`,
           }).then((result) => {
             if (result.isConfirmed) {
-              Swal.fire('Saved!', '', 'success')
+              Swal.fire('Saved!', 'It will be ready in a few minutes', 'success')
             } else if (result.isDenied) {
               Swal.fire('Changes are not saved', '', 'info')
             }
