@@ -34,7 +34,11 @@ form.addEventListener("submit", function(button){
             denyButtonText: `Don't save`,
           }).then((result) => {
             if (result.isConfirmed) {
+<<<<<<< HEAD
               Swal.fire('Saved!', 'It will be ready in a few minutes', 'success')
+=======
+              Swal.fire('Saved!', 'It will be ready in a few minutes ', 'success')
+>>>>>>> 307dd928b4d007a1e2fb428e7d28aa4ab6cb7c60
             } else if (result.isDenied) {
               Swal.fire('Changes are not saved', '', 'info')
             }
