@@ -1,4 +1,4 @@
-const form = document.querySelector("#content");
+const form = document.querySelector("#coner");
 form.addEventListener("submit", function(button){
     button.preventDefault();
     const jsform = new FormData(form);
